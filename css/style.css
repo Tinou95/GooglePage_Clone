@@ -115,7 +115,7 @@ header nav{
 
   
   input {
-    background: url("/asset/Google_microphone_logo.png") no-repeat right;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png") no-repeat right;
     background-size: 1.5rem;
     background-position: right 1rem center;
     margin: 3rem auto;
