@@ -52,7 +52,7 @@ header nav{
 
   }
   header nav #profil {
-    background: url("/asset/photo.jpg");
+    background: url("https://lh3.googleusercontent.com/-Y2yVREOI8ys/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucn_e6mPVaDvGb5W7S-cWojxBtIN_A/photo.jpg?sz=46");
     opacity: 1;
     width: 3.5rem;
     height: 3.5rem;
@@ -61,7 +61,7 @@ header nav{
 
   }
   header nav #cloche {
-    background: url("/asset/notifications-bell-button_icon-icons.com_72648.png");
+    background: url("https://icon-library.com/images/bell-icon/bell-icon-23.jpg");
     opacity: .5;
     width: 2rem;
     height: 2rem;
