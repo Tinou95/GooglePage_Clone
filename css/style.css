@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+header nav{
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+  }
+  header nav span{
+      margin-left:1.6rem;
+  }
+
+  header nav #apps, header nav #profil, header nav #cloche{
+    display: inline-block;
+    background-size: 100%;
+    vertical-align: middle;
+
+  }
+  
+  header nav #apps {
+    background: url("http://image.flaticon.com/icons/svg/56/56844.svg");
+    opacity: .5;
+    width: 1.8rem;
+    height: 1.8rem;   
+    background-size: 100%;
+
+  }
+  header nav #profil {
+    background: url("/asset/photo.jpg");
+    opacity: 1;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    background-size: 100%;
+
+  }
+  header nav #cloche {
+    background: url("/asset/notifications-bell-button_icon-icons.com_72648.png");
+    opacity: .5;
+    width: 2rem;
+    height: 2rem;
+    background-size: 100%;
+  }
+
+
+  
+  
+  header nav #apps:hover, header nav #cloche:hover {
+    opacity: .9;
+  }
+  
+  header nav button {
+    background-color: #4584F1;
+    color: white;
+    height: 3.2rem;
+    width: 7rem;
+    box-shadow: none;
+    border-width: 0;
+    border-radius: .2rem;
+    font-weight: bold;
+  }
+  
+  header nav button:active {
+    background-color: #4584F1;
+  }
+  
+  header nav button:focus {
+    background-color: #3667B9;
+    outline: none;
+  }
+  
+ .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+  }
+  #google img{
+    height: 10rem;
+  
+}
+  
+
+  
+  .search {
+    text-align: center;
+  }
+
+
+  
+  input {
+    background: url("/asset/Google_microphone_logo.png") no-repeat right;
+    background-size: 1.5rem;
+    background-position: right 1rem center;
+    margin: 3rem auto;
+    height: 4rem;
+    width: 52.5rem;
+    border: #DDD thin solid;
+    border-radius: 2rem;
+    padding: 0 5rem 0 1rem;
+    font-size: 1.2rem;
+  }
+  
+  input:hover {
+    border-color: #BBB;
+    opacity: 1;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: royalblue;
+  }
+  
+  input:active {
+    border-color: royalblue;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+.buttons p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+}
+.buttons p a{
+    color: royalblue;
+}
+  
+  .buttons button {
+    opacity: .9;
+    font-weight: bold;
+    background-color: #EEE;
+    height: 36px;
+    border: solid thin #EEE;
+    color: #666;
+    margin: 0 .4rem 0 .4rem;
+    padding: 0 2rem 0 2rem;
+    border-radius: .2rem;
+  }
+  
+  .buttons button:hover {
+    color: black;
+    background: rgba(233, 233, 233, .6);
+    border: solid .1rem #AAA;
+    color: black;
+    outline: none;
+    box-shadow: .01rem .01rem .5rem #CCC;
+  }
+  
+  .buttons button:focus, button:active {
+    outline: none;
+  }
+  
+  .buttons button:active {
+    border-color: royalblue;
+  }
+  
+  footer{
+      margin-top: 29vh;
+      height: 14vh;
+      background-color: #EEE;
+
+
+  }
+  footer ul{
+      display: flex;
+      padding-top: 1.5rem;
+    
+  }
+  footer ul li{
+      margin-left: 1rem
+  }
+  footer ul li a{
+      font-size:  1.2rem;
+  }
+
+  
