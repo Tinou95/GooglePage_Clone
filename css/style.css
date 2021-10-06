@@ -204,5 +204,12 @@ header nav{
   footer ul li a{
       font-size:  1.2rem;
   }
+ @media screen and (max-width: 80rem ) {
+
+    .search input{
+      width: 70%;
+    }
+    
+  }
 
   
